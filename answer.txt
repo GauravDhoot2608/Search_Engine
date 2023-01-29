@@ -1,0 +1,84 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> addPage stack_datastructure_wiki
+Result -> Webpage stack_datastructure_wiki added
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord delhi
+Result -> No webpage contains word delhi
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord stack
+Result -> stack_datastructure_wiki
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord wikipedia
+Result -> stack_datastructure_wiki
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPositionsOfWordInAPage stack stack_overflow
+Result -> No webpage stack_overflow found
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord allain
+Result -> No webpage contains word allain
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> addPage stack_cprogramming
+Result -> Webpage stack_cprogramming added
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord allain
+Result -> stack_cprogramming
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord C
+Result -> stack_cprogramming
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord C++
+Result -> stack_cprogramming
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> addPage stack_oracle
+Result -> Webpage stack_oracle added
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord jdk
+Result -> stack_oracle
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> addPage stackoverflow
+Result -> Webpage stackoverflow added
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord function
+Result -> stackoverflow, stack_cprogramming, stack_datastructure_wiki
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> addPage stacklighting
+Result -> Webpage stacklighting added
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> addPage stackmagazine
+Result -> Webpage stackmagazine added
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord magazines
+Result -> stackmagazine
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> addPage stacks_and_queues
+Result -> Webpage stacks_and_queues added
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> addPage cmu_stack
+Result -> Webpage cmu_stack added
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> addPage studytonight
+Result -> Webpage studytonight added
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> addPage auckland_stack
+Result -> Webpage auckland_stack added
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> addPage geeks_quiz
+Result -> Webpage geeks_quiz added
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainAllWords data structure first
+Result -> stacks_and_queues, stack_cprogramming, cmu_stack, studytonight, stack_datastructure_wiki, geeks_quiz
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainAnyOfTheseWords stack data structure first
+Result -> stacks_and_queues, stack_cprogramming, cmu_stack, studytonight, stacklighting, stack_datastructure_wiki, stackoverflow, geeks_quiz, auckland_stack, stack_oracle, stackmagazine
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainPhrase data structure
+Result -> stack_cprogramming, cmu_stack, stacks_and_queues, studytonight, stack_datastructure_wiki, geeks_quiz
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPositionsOfWordInAPage stack stack_datastructure_wiki
+Result -> 1, 14, 71, 130, 142, 153, 170, 191, 204, 208, 228, 256, 294, 326, 336, 350, 363, 382, 395, 409, 436, 441, 459
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord applications
+Result -> geeks_quiz, studytonight, cmu_stack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Query  -> queryFindPagesWhichContainWord stack
+Result -> geeks_quiz, studytonight, stackmagazine, stackoverflow, stack_datastructure_wiki, stacks_and_queues, stacklighting, stack_cprogramming, stack_oracle, auckland_stack, cmu_stack
